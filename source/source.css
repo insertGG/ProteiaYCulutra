@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #003319;
+}
+
+.separador {
+  height: 70%;
+  padding-top: 30px;
+  width: 2px;
+}
+
+.titulo {
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+h4.subtitulo {
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.dist {
+  padding-bottom: 70px;
+}
+
+.descripcion {
+  padding-left: 4%;
+  text-indent: 10px;
+}
+
+.social {
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .inv {
+    display: none;
+  }
+}
