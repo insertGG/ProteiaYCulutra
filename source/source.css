@@ -45,8 +45,21 @@ h4.subtitulo {
   width: auto;
 }
 
+.logos-neu {
+  height: 150px;
+  width: max-content;
+}
+
 @media screen and (max-width: 1000px) {
   .inv {
     display: none;
   }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
