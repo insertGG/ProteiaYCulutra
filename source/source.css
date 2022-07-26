@@ -46,8 +46,18 @@ h4.subtitulo {
 }
 
 .logos-neu {
-  height: 150px;
-  width: max-content;
+  height: 50%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 8em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
