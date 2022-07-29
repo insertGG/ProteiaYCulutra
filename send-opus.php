@@ -1,5 +1,5 @@
 <?php
-    $destino = "info@proteinaycultura.org.ar";
+    $destino = "info@opusoperapop.com.ar";
     $nombre = $_POST["nombre-opus"];
     $apellido = $_POST["apellido-opus"];
     $correo = $_POST["correo-opus"];
