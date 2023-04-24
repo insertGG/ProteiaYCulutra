@@ -25,9 +25,13 @@ h1 {
   font-size: 350%;
 }
 
-h4.subtitulo {
+.subtitulo {
   padding-bottom: 2%;
   padding-left: 2%;
+}
+
+.des {
+  text-align: justify;
 }
 
 .dist {
