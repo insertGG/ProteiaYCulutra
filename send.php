@@ -5,7 +5,7 @@
     $correo = $_POST["correo"];
     $mensaje = $_POST["mensaje"];
     $asunto = "Enviado desde la Web de Proteina y Cultura para la Fundación";
-    $contenido = $asunto."\nNombre: ".$nombre."\nApellido: ".$apellido."\nCorreo: ".$correo."\nMensaje: ".$mensaje;
-    mail($destino,"contacto",$contenido);
+    $contenido = "Nombre: ".$nombre."\nApellido: ".$apellido."\nCorreo: ".$correo."\nMensaje: ".$mensaje;
+    mail($destino,$asunto,$contenido);
     header("Location:redirect.html");
 ?>
